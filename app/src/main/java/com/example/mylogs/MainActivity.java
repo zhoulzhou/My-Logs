@@ -18,7 +18,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         BTree bTree = new BTree();
-        createBTree(bTree.getRoot());
+        TreeNode root = bTree.getRoot();
+        createBTree(root);
+
+        preOrder(root);
     }
 
     private void preOrder(TreeNode node){
