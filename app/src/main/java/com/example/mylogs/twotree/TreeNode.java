@@ -1,11 +1,11 @@
 package com.example.mylogs.twotree;
 
 public class TreeNode {
-    private int key = 0;
-    private boolean isVisited = false;
-    private String data = null;
-    private TreeNode LChild = null;
-    private TreeNode RChild = null;
+    public int key = 0;
+    public boolean isVisited = false;
+    public String data = null;
+    public TreeNode LChild = null;
+    public TreeNode RChild = null;
 
     public TreeNode(){}
 
