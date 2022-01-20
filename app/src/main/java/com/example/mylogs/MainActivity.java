@@ -8,6 +8,8 @@ import android.util.Log;
 import com.example.mylogs.twotree.BTree;
 import com.example.mylogs.twotree.TreeNode;
 
+import java.util.Stack;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
@@ -21,7 +23,23 @@ public class MainActivity extends AppCompatActivity {
         TreeNode root = bTree.getRoot();
         createBTree(root);
 
-        preOrder(root);
+        noPreOrder(root);
+    }
+
+    private void noPreOrder(TreeNode node){
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode pNode = node;
+        while (pNode != null || stack.size() > 0){
+            while (pNode != null){
+                visit(pNode);
+                stack.push(pNode);
+                pNode = pNode.LChild;
+            }
+            if(stack.size() > 0){
+                pNode = stack.pop();
+                pNode = pNode.RChild;
+            }
+        }
     }
 
     private void preOrder(TreeNode node){
@@ -59,11 +77,13 @@ public class MainActivity extends AppCompatActivity {
         TreeNode nodeD = new TreeNode(4, "D");
         TreeNode nodeE = new TreeNode(5, "E");
         TreeNode nodeF = new TreeNode(6, "F");
+        TreeNode nodeG = new TreeNode(7, "G");
         root.LChild = nodeB;
         root.RChild = nodeC;
         nodeB.LChild = nodeD;
         nodeB.RChild = nodeE;
         nodeC.LChild = nodeF;
+        nodeC.RChild = nodeG;
     }
 
 
