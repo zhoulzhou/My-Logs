@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.mylogs.callfutrue.CallableTest;
 import com.example.mylogs.twotree.BTree;
 import com.example.mylogs.twotree.BTreeTest;
 import com.example.mylogs.twotree.TreeNode;
@@ -20,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new BTreeTest();
+//        new BTreeTest();
+        new CallableTest();
     }
 
 
