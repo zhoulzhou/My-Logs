@@ -28,7 +28,7 @@ public class CallableTest {
             Thread.sleep(2000);
             System.out.println("主线程执行其他任务");
 
-            //输出获取到的结果
+            //输出获取到的结果  主线程会在此等子线程执行完获取接口
             if(futureTask.get() != null){
                 System.out.println("futureTask.get() = " + futureTask.get());
             }else {
