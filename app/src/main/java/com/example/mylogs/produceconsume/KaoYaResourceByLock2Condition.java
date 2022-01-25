@@ -13,6 +13,10 @@ public class KaoYaResourceByLock2Condition {
     private Condition producer_condition = lock.newCondition();
     private Condition consumer_condition = lock.newCondition();
 
+    public KaoYaResourceByLock2Condition(){
+        System.out.println("KaoYaResourceByLock2Condition");
+    }
+
     public void produce(String name){
         lock.lock();
         try {

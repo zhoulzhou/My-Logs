@@ -3,7 +3,7 @@ package com.example.mylogs.produceconsume;
 public class KaoYaMultiThreadTest {
 
     public KaoYaMultiThreadTest(){
-        KaoYaResourceByLock r = new KaoYaResourceByLock();
+        KaoYaResourceByLock2Condition r = new KaoYaResourceByLock2Condition();
         Producer p1 = new Producer(r);
         Producer p2 = new Producer(r);
         Consumer c1 = new Consumer(r);
@@ -21,9 +21,9 @@ public class KaoYaMultiThreadTest {
     }
 
     class Producer implements Runnable{
-        private KaoYaResourceByLock r;
+        private KaoYaResourceByLock2Condition r;
 
-        Producer(KaoYaResourceByLock r){
+        Producer(KaoYaResourceByLock2Condition r){
             this.r = r;
         }
 
@@ -36,9 +36,9 @@ public class KaoYaMultiThreadTest {
     }
 
     class Consumer implements Runnable{
-        private KaoYaResourceByLock r;
+        private KaoYaResourceByLock2Condition r;
 
-        Consumer(KaoYaResourceByLock r){
+        Consumer(KaoYaResourceByLock2Condition r){
             this.r = r;
         }
 
