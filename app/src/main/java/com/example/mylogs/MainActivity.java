@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.example.mylogs.callfutrue.CallableTest;
+import com.example.mylogs.produceconsume.KaoYaLockTest;
 import com.example.mylogs.produceconsume.KaoYaTest;
 import com.example.mylogs.twotree.BTree;
 import com.example.mylogs.twotree.BTreeTest;
@@ -22,9 +23,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        new KaoYaLockTest();
 //        new BTreeTest();
 //        new CallableTest();
-        new KaoYaTest();
+//        new KaoYaTest();
     }
 
 
