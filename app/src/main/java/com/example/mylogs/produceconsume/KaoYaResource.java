@@ -6,7 +6,7 @@ public class KaoYaResource {
     private boolean flag = false; //是否有烤鸭
 
     public synchronized void produce(String name){
-        if(false){
+        if(flag){
             try {
                 wait();
             } catch (InterruptedException e) {
