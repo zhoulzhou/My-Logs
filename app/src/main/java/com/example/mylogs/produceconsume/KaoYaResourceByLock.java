@@ -15,7 +15,7 @@ public class KaoYaResourceByLock {
     public void produce(String name){
         lock.lock();
         try {
-            if(flag){
+            while (flag){
                 try {
                     condition.await();
                 } catch (InterruptedException e) {
@@ -36,7 +36,7 @@ public class KaoYaResourceByLock {
     public void consume(){
         lock.lock();
         try {
-            if(!flag){
+            while (!flag){
                 try {
                     condition.await();
                 } catch (InterruptedException e) {
