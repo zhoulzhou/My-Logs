@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.example.mylogs.callfutrue.CallableTest;
+import com.example.mylogs.produceconsume.BlockQueueTest;
 import com.example.mylogs.produceconsume.KaoYaLockTest;
 import com.example.mylogs.produceconsume.KaoYaMultiThreadTest;
 import com.example.mylogs.produceconsume.KaoYaTest;
@@ -24,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new KaoYaMultiThreadTest();
+        new BlockQueueTest();
+//        new KaoYaMultiThreadTest();
 //        new KaoYaLockTest();
 //        new BTreeTest();
 //        new CallableTest();
