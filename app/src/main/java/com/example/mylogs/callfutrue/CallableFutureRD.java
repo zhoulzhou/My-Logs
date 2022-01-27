@@ -2,6 +2,8 @@ package com.example.mylogs.callfutrue;
 
 public class CallableFutureRD {
     /**
+     * https://blog.csdn.net/javazejian/article/details/76167357
+     *
      * Future<V>获取异步计算结果的
      *
      * 取消任务
