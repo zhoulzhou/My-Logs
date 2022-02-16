@@ -11,6 +11,8 @@ import com.example.mylogs.produceconsume.KaoYaLockTest;
 import com.example.mylogs.produceconsume.KaoYaMultiThreadTest;
 import com.example.mylogs.produceconsume.KaoYaTest;
 import com.example.mylogs.sort.BubbleSort;
+import com.example.mylogs.sort.QuickSort;
+import com.example.mylogs.sort.SelectSort;
 import com.example.mylogs.twotree.BTree;
 import com.example.mylogs.twotree.BTreeTest;
 import com.example.mylogs.twotree.TreeNode;
@@ -27,7 +29,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        BubbleSort.test();
+        QuickSort.test();
+//        SelectSort.test();
+//        BubbleSort.test();
 //        new BlockQueueTest();
 //        new KaoYaMultiThreadTest();
 //        new KaoYaLockTest();
