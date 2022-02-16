@@ -15,15 +15,19 @@ public class BubbleSort {
             }
         }
 
-        for (int i=0; i<array.length; i++){
-            System.out.println(" array= " + array[i]);
-        }
+        printArray(array);
     }
 
     private static void swap(int[] array, int i, int j){
         int temp = array[i];
         array[i] = array[j];
         array[j] = temp;
+    }
+
+    private static void printArray(int[] array){
+        for (int i=0; i<array.length; i++){
+            System.out.println(" array= " + array[i]);
+        }
     }
 
     public static void test(){
