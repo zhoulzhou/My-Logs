@@ -25,17 +25,20 @@ public class QuickSort {
         }
 
 
+        System.out.println("-----partition---");
         int basePos = partition(array, left, right);
         printArray(array);
-        System.out.println("-----partition---");
 
+
+        System.out.println("-----quickSort 111---");
         quickSort(array, left, basePos-1);
         printArray(array);
-        System.out.println("-----quickSort 111---");
 
+
+        System.out.println("-----quickSort 222---");
         quickSort(array, basePos+1, right);
         printArray(array);
-        System.out.println("-----quickSort 222---");
+
     }
 
     public static void sort(int[] array){
@@ -49,6 +52,8 @@ public class QuickSort {
     public static void test(){
         System.out.println("---- test  ---");
         int[] array = {4,3,7,9,12,42,5,22,6,8,2,34,1};
+        printArray(array);
+
         sort(array);
     }
 
@@ -59,8 +64,10 @@ public class QuickSort {
     }
 
     private static void printArray(int[] array){
+        String s = "";
         for (int i=0; i<array.length; i++){
-            System.out.println(" array= " + array[i]);
+            s += array[i] + "  ";
         }
+        System.out.println(" array= " + s);
     }
 }

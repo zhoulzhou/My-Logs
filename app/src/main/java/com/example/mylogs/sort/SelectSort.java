@@ -30,9 +30,11 @@ public class SelectSort {
     }
 
     private static void printArray(int[] array){
+        String s = "";
         for (int i=0; i<array.length; i++){
-            System.out.println(" array= " + array[i]);
+            s += array[i] + "  ";
         }
+        System.out.println(" array= " + s);
     }
 
     public static void test(){
