@@ -6,12 +6,13 @@ public class QuickSort {
         int basePointer = left;
 
         while (left < right){
-            while (left < right && array[right] >= baseKey){
-                right --;
-            }
             while (left < right && array[left] <= baseKey){
                 left ++;
             }
+            while (left < right && array[right] >= baseKey){
+                right --;
+            }
+
             swap(array, left, right);
         }
 
