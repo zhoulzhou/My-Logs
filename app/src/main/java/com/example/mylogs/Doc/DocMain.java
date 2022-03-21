@@ -7,6 +7,9 @@ package com.example.mylogs.Doc;
  *View绘制流程
  * https://www.jianshu.com/p/060b5f68da79
  *
+ *RecyclerView缓存机制
+ * https://www.jianshu.com/p/f9e21269da26
+ *
  */
 public class DocMain {
 }
