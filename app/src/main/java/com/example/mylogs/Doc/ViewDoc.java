@@ -13,5 +13,5 @@ package com.example.mylogs.Doc;
  *
  *
  */
-public class DocMain {
+public class ViewDoc {
 }
