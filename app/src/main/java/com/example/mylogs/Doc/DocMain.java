@@ -9,6 +9,8 @@ package com.example.mylogs.Doc;
  *
  *RecyclerView缓存机制
  * https://www.jianshu.com/p/f9e21269da26
+ * https://zhuanlan.zhihu.com/p/80475040
+ *
  *
  */
 public class DocMain {
