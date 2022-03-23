@@ -7,6 +7,8 @@ package com.example.mylogs.Doc;
  *Glide 面试题
  * https://www.jianshu.com/p/812558735ebe
  *
+ *activity插件化 hook技术
+ * https://blog.csdn.net/itachi85/article/details/80574390
  *
  */
 public class PublicLibDoc {

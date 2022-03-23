@@ -10,6 +10,7 @@ import com.example.mylogs.produceconsume.BlockQueueTest;
 import com.example.mylogs.produceconsume.KaoYaLockTest;
 import com.example.mylogs.produceconsume.KaoYaMultiThreadTest;
 import com.example.mylogs.produceconsume.KaoYaTest;
+import com.example.mylogs.proxy.ProxyTest;
 import com.example.mylogs.sort.BinarySearch;
 import com.example.mylogs.sort.BubbleSort;
 import com.example.mylogs.sort.QuickSort;
@@ -30,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        BinarySearch.test();
+        ProxyTest.test(this);
+//        BinarySearch.test();
 //        QuickSort.test();
 //        SelectSort.test();
 //        BubbleSort.test();
