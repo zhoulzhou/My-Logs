@@ -9,6 +9,7 @@ package com.example.mylogs.Doc;
  *
  *activity插件化 hook技术
  * https://blog.csdn.net/itachi85/article/details/80574390
+ * https://zhuanlan.zhihu.com/p/33017826
  *
  */
 public class PublicLibDoc {
