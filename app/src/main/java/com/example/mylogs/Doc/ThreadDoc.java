@@ -8,6 +8,7 @@ package com.example.mylogs.Doc;
  *
  * AQS：AbstractQueuedSynchronizer（抽象队列同步器）
  * https://blog.csdn.net/qq_39291929/article/details/103826516
+ * https://www.jianshu.com/p/da9d051dcc3d
  *
  *
  * 常用线程池及适用场景
