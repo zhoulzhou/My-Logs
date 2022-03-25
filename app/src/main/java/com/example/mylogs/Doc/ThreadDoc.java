@@ -3,6 +3,12 @@ package com.example.mylogs.Doc;
 /**
  * 互斥锁 自旋锁
  * https://www.zhihu.com/question/66733477/answer/2167257604
+ * https://baijiahao.baidu.com/s?id=1697365218983521838&wfr=spider&for=pc
+ *
+ *
+ * AQS：AbstractQueuedSynchronizer（抽象队列同步器）
+ * https://blog.csdn.net/qq_39291929/article/details/103826516
+ *
  *
  * 常用线程池及适用场景
  * https://blog.csdn.net/fajing_feiyue/article/details/102644223
