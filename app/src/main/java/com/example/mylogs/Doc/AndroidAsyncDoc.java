@@ -6,6 +6,10 @@ package com.example.mylogs.Doc;
  *https://blog.51cto.com/u_14347056/2398080
  *https://www.jianshu.com/p/194d5d4e877d
  *
+ * EventFD epoll机制 ***
+ * https://www.cnblogs.com/renhui/p/12875396.html
+ * https://jishuin.proginn.com/p/763bfbd35a2d
+ *
  * Handler postDelay
  * https://www.jianshu.com/p/44b322dfc040
  *
