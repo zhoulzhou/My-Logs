@@ -9,6 +9,7 @@ package com.example.mylogs.Doc;
  *https://zhuanlan.zhihu.com/p/433901409
  *
  * https://www.jianshu.com/p/c9b9e8e9d3f6
+ * https://www.kancloud.cn/aslai/interview-guide/1126381
  *
  * Launcher进程请求AMS
  * AMS发送创建应用进程请求
