@@ -8,6 +8,8 @@ package com.example.mylogs.Doc;
  * https://juejin.cn/post/6844903959581163528
  *https://zhuanlan.zhihu.com/p/433901409
  *
+ * https://www.jianshu.com/p/c9b9e8e9d3f6
+ *
  * Launcher进程请求AMS
  * AMS发送创建应用进程请求
  * Zygote进程接受请求并孵化应用进程
