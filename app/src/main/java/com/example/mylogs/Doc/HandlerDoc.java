@@ -2,6 +2,7 @@ package com.example.mylogs.Doc;
 
 /**
  *Handler原理分析
+ * https://www.jianshu.com/p/14ba1cb98b08
  * https://www.cnblogs.com/ivoo/p/10727286.html
  *https://blog.51cto.com/u_14347056/2398080
  *https://www.jianshu.com/p/194d5d4e877d
@@ -19,6 +20,7 @@ package com.example.mylogs.Doc;
  *
  *同步屏障机制(sync barrier)
  * https://blog.csdn.net/asdgbc/article/details/79148180
+ *
  */
 public class HandlerDoc {
 }
