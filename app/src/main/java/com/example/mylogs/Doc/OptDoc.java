@@ -9,6 +9,9 @@ package com.example.mylogs.Doc;
  * https://blog.csdn.net/u011578734/article/details/106288970
  * https://blog.csdn.net/weixin_29163857/article/details/117508707
  *
+ * 卡顿检测及优化
+ * https://blog.csdn.net/u013309870/article/details/106801022
+ *
  */
 public class OptDoc {
 }
