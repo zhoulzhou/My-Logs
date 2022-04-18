@@ -2,6 +2,8 @@ package com.example.mylogs.Doc;
 
 /**
  * LifeCycle
+ * https://www.jianshu.com/p/cc356af30411
+ * https://www.jianshu.com/p/4aaea5f31f85?ivk_sa=1026860b
  *
  *
  * ViewBinding
