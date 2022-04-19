@@ -1,5 +1,13 @@
 package com.example.mylogs.sort;
 
+/**
+ * 在有序的列表中
+ * 将列表中间位置元素和目标元素进行比较，
+ * 如果相等，则查找成功；
+ * 如果不相等，则查找的元素一定在表的前半部分或后半部分。
+ * 在判断，如果目标元素大于中间元素，则进一步查找后半部分，否则进一步查找前半部分。
+ * 重复以上过程，直到找到满足条件的元素，使查找成功；如果还没有找到，则此元素不在列表里面。
+ */
 public class BinarySearch {
 
     public static int search(int[] array, int key){

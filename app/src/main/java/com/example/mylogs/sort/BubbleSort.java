@@ -1,5 +1,10 @@
 package com.example.mylogs.sort;
 
+/**
+ *
+ * 顾名思义，冒泡排序就是像水中的泡泡一样，
+ * 两个相邻的数比较大小，将两个数中较大的数往右边放，小的往左边放
+ */
 public class BubbleSort {
 
     public static void sort(int[] array){

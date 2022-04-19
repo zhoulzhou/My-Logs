@@ -8,6 +8,8 @@ package com.example.mylogs.sort;
  * 将剩余的元素，分割成 左子序列 L 和 右子序列 R
  * L 中所有元素都 < k， R 中所有元素都 > k
  * 对 L 和 R递归进行快排，直到子序列中有 0 个 或者 1 个元素，退出
+ *
+ * 时间复杂度 n * log n
  */
 public class QuickSort {
     public static int partition(int[] array, int left, int right){
