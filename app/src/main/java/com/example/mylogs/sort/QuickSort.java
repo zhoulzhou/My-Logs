@@ -27,7 +27,7 @@ public class QuickSort {
             swap(array, left, right);
         }
 
-        swap(array, basePointer, left);
+        swap(array, basePointer, left); //中间元素跟base交换  left此时是中间元素
         return left;
     }
 
