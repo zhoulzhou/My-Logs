@@ -21,6 +21,9 @@ package com.example.mylogs.Doc;
  *
  * Glide
  * https://baijiahao.baidu.com/s?id=1703226926911101125&wfr=spider&for=pc
+ *
+ * RxJava
+ * https://juejin.cn/post/6900870262062120967
  */
 public class ThirdLibDoc {
 }
