@@ -17,6 +17,10 @@ package com.example.mylogs.Doc;
  *
  * Retrofit
  * https://www.jianshu.com/p/8cf076801420
+ *
+ *
+ * Glide
+ * https://baijiahao.baidu.com/s?id=1703226926911101125&wfr=spider&for=pc
  */
 public class ThirdLibDoc {
 }
