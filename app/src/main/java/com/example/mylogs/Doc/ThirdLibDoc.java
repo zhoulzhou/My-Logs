@@ -1,6 +1,10 @@
 package com.example.mylogs.Doc;
 
 /**
+ * 1.通过apt在编译期将所有被 @Subscribe注解的函数添加到MyEventBusIndex对象中。
+ * 2.在register过程中生成subscriptionsByEventType的数据。
+ * 3.在 post过程中通过subscriptionsByEventType数据查找对应的函数，然后再通过反射的方式调用。
+ * 
  * EventBus
  * https://zhuanlan.zhihu.com/p/338474770
  * https://www.jianshu.com/p/56540e07416a
