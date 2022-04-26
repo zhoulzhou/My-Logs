@@ -17,6 +17,9 @@ package com.example.mylogs.Doc;
  * https://blog.csdn.net/qq_45076180/article/details/108316340
  * https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html
  *
+ * LinkedBlockingQueue
+ * https://blog.csdn.net/weixin_41771218/article/details/83056052
+ *
  */
 public class ThreadDoc {
 }
